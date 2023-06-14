@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Registration Form 101</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- Header -->
+        <nav>
+            <h1>&#128516Who Are You ?&#128516</h1>
+            <ul>
+                <li><a style="color: rgb(255, 255, 255);" href=""><i class="fa-solid fa-house-chimney fa-bounce"></i>Home</a></li>
+                <li><a style="color: rgb(255, 255, 255);" href=""><i class="fa-solid fa-bars fa-bounce"></i>Menu</a></li>
+                <li><a style="color: rgb(255, 255, 255);" href=""><i class="fa-solid fa-pen-ruler fa-beat-fade"></i>ToolBar</a></li>
+                <li><a style="color: rgb(255, 255, 255);" href=""><i class="fa-solid fa-magnifying-glass-dollar fa-beat-fade"></i>Preview</a></li>
+                <li><a style="color: rgb(255, 255, 255);" href=""><i class="fa-solid fa-person-circle-question fa-fade"></i>FQA..</a></li>
+            </ul>
+        </nav>
+        <section>
+        <p>Please fill out this Form</p>
+        <form>
+            <fieldset>
+              <legend>Your Personal details Here :</legend>
+              <label for="" >Enter Name Here : <input  class="Mon" id=""  id="" required type="text" placeholder="Your Name Please :" ></label>
+              <label for="">Enter Surname Here : <input  class="Mon"id="" required type="text" placeholder="Your Surname Please :"></label>
+              <label for="">Enter Email Here : <input class="Mon" id="" required type="email" placeholder="Your Email Please :"></label>
+              <label for="">Enter Password Here : <input class="Mon" id="" required type="password" placeholder="Your Password Please :" pattern="{a-z0-5}{8,}"></label>
+            </fieldset>
+            <div></div>
+            <fieldset>
+                <legend>Your Type Account :</legend>
+                <label for=""><input required name="w-z" id="" type="radio">Business Account</label>
+                <label for=""><input required name="w-z" id="" type="radio">Personal Account</label>
+                <label for=""><input required name="w-z" id="" type="radio">inter-Private Account</label>
+                <label for=""><input required checked name="w-z" id="" type="checkbox"> I agree to the <a href="">terms and conditions</a></label>
+            </fieldset>
+            <fieldset class="Ex">
+                <legend>More About You :</legend>
+                <label class="Ex">Please Upload a Profile picture :<input type="file"></label>
+                <label>What is your Age :<input min="5" max="35" type="number"></label>
+                <label class="Ex">Where Did here About Us ?</label>
+                <select>
+                    <option for=""><label>Please Select One !</label></option>
+                    <option>Youtube</option>
+                    <option>Friend</option>
+                    <option>Family</option>
+                    <option>Ad</option>
+                </select>
+            </fieldset>
+            <button type="submit"><span>Submit Now!</span></button>
+        </section>
+      </form>
+    </body>
+</html>
